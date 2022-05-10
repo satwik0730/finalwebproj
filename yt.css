@@ -637,7 +637,7 @@ li {
 
 .content3{
   display: flex;
-  background-color: white;
+  background-color: rgb(0, 0, 0);
 }
 
 
@@ -708,3 +708,5 @@ h3 {
   width: 12rem;
   height: 3rem;
 }
+
+
