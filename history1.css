@@ -8,14 +8,22 @@
     margin: 0;
     
 }
-
+html{
+  scroll-behavior: smooth;
+}
+.btn:hover {
+  color: black;
+  
+  
+  
+}
 
 body {
-    background-image: linear-gradient(
-        to bottom,
-        rgba(0, 0, 0, 0.384),
-        rgba(0, 0, 0)
-      ),
+    background-image:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.384),
+      rgba(0, 0, 0) ),
       url("images/portfolio-6.jpg");
     background-size: 100% auto;
      
@@ -106,6 +114,7 @@ body {
   h5,
   h6 {
     color: white;
+    
     font-family: "Gloss_And_Bloom", sans-serif;
   }
   
@@ -463,4 +472,28 @@ h3 {
 }
 .footer-main .widget_subscribe button:hover {
   transform: scale(1.1);
+}
+
+
+
+h5{
+  color: #000;
+  font-family: "Glass_And_Bloom",sans-serif;
+}
+
+.btn{
+  color: white;
+}
+
+.ourclient
+{
+  background: linear-gradient(rgba(0, 0, 0, 0.705) , rgba(0, 0, 0, 0.705)), url("img/hester-qiang-bSrqpoOz7Ec-unsplash.jpg");
+  background-size: cover;
+  height: 56vh;
+  align-items: center;
+  text-align: center;
+  padding-top: 6rem;
+  
+  
+  
 }
