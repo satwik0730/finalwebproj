@@ -5,73 +5,103 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="login.css">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
-    <div class="container h-100">
-      <div class="row h-100 justify-content-center align-items-center">
-          <form class="col-md-9" style="background-color:  white;">
-              <div class="AppForm shadow-lg">
-                  <div class="row">
-                      <div class="col-md-6 d-flex justify-content-center align-items-center">
-                          <div class="AppFormLeft" style="background: white;">
-
-                              <h1>Login</h1>
-                              <div class="form-group position-relative mb-4">
-                                  <input type="text" class="form-control border-top-0 border-right-0 border-left-0 rounded-0 shadow-none" id="username"
-                                      placeholder="Username">
-                                      <i class="fa fa-user-o"></i>
-                              </div>
-                              <div class="form-group position-relative mb-4">
-                                  <input type="password" class="form-control border-top-0 border-right-0 border-left-0 rounded-0 shadow-none" id="password"
-                                      placeholder="Password">
-                                      <i class="fa fa-key"></i>
-
-                              </div>
-                              <div class="row  mt-4 mb-4">
-                                  <div class="col-md-6">
-                                      <div class="form-check">
-                                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                          <label class="form-check-label" for="defaultCheck1">
-                                              Remember me
-                                          </label>
-                                      </div>
-                                  </div>
-                                  <div class="col-md-6 text-right">
-                                      <a href="#">Forgot Password?</a>
-                                  </div>
-                              </div>
-
-                              <a id="but" href="history.html" style="text-align: center;" class=" btn-success btn-block shadow border-0 py-2 text-uppercase ">
-                                  Login
-                              </a>
-
-                              <p class="text-center mt-5">
-                                  Don't have an account?
-                                  <span>
-                                      Create your account
-                                  </span>
-
-                              </p>
-
-                          </div>
-
-                      </div>
-                      <div class="col-md-6">
-                          <div class="AppFormRight position-relative d-flex justify-content-center flex-column align-items-center text-center p-5 text-white">
-                              <h2 class="position-relative px-4 pb-3 mb-4">Welcome</h2>
-                              <p>Lorem ipsuing elit. Molomos totam est voluptatum i omos totam est voluptatum i ure sit consectetur ill</p>
-                          </div>
-                      </div>
+      <!-- Section: Design Block -->
+<section class="background-radial-gradient overflow-hidden">
+    <style>
+      .background-radial-gradient {
+        
+        background-image: linear-gradient(rgba(0, 0, 0, 0.514) , rgba(0, 0, 0, 0.514)), url("img/hester-qiang-bSrqpoOz7Ec-unsplash.jpg");
+        background-size: cover;
+      }
+  
+  
+      .bg-glass {
+        background-color: hsla(0, 0%, 100%, 0.315) !important;
+        backdrop-filter: saturate(200%) blur(25px);
+        color: white;
+      }
+      #a :hover
+      {
+          background-color: #e2b31c;
+      }
+      button
+      {
+          color: black;
+      }
+    </style>
+  
+    <div class="container px-4 py-5 px-md-5 text-center text-lg-start my-5">
+      <div class="row gx-lg-5 align-items-center mb-5">
+        <div class="col-lg-6 mb-5 mb-lg-0" style="z-index: 10">
+          <h1 class="my-5 display-5 fw-bold ls-tight" style="color: hsl(0, 0%, 100%); font-size: 5.7rem;font-weight: bolder;">
+            HEY! HISTORIAN<br />
+            
+          </h1>
+          <p class="mb-4 opacity-70" style="color: hsl(0, 0%, 95%)">
+            The dictionary defines history as “the study of past events, particularly in human affairs” or “a branch of knowledge that records and explains past events.” As a historian myself, I’d argue that history is much more than that! But I’ll let you decide for yourself while you read these quotes about what history is.
+          </p>
+        </div>
+  
+        <div class="col-lg-6 mb-5 mb-lg-0 position-relative">
+          <div id="radius-shape-1" class="position-absolute rounded-circle shadow-5-strong"></div>
+          <div id="radius-shape-2" class="position-absolute shadow-5-strong"></div>
+  
+          <div class="card bg-glass">
+            <div class="card-body px-4 py-5 px-md-5">
+              <form>
+                <!-- 2 column grid layout with text inputs for the first and last names -->
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+                    <div class="form-outline">
+                      <input type="text" id="form3Example1" class="form-control" />
+                      <label class="form-label" for="form3Example1">First name</label>
+                    </div>
                   </div>
-              </div>
-
-          </form>
+                  <div class="col-md-6 mb-4">
+                    <div class="form-outline">
+                      <input type="text" id="form3Example2" class="form-control" />
+                      <label class="form-label" for="form3Example2">Last name</label>
+                    </div>
+                  </div>
+                </div>
+  
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                  <input type="email" id="form3Example3" class="form-control" />
+                  <label class="form-label" for="form3Example3">Email address</label>
+                </div>
+  
+                <!-- Password input -->
+                <div class="form-outline mb-4">
+                  <input type="password" id="form3Example4" class="form-control" />
+                  <label class="form-label" for="form3Example4">Password</label>
+                </div>
+  
+                <!-- Checkbox -->
+                
+  
+                <!-- Submit button -->
+                <a href="history.html" id="a" style="background-color: darkorange;border:none ; height: 3.5REM; font-weight: bolder;padding-top: 1rem;" type="submit" class="btn btn-primary btn-block mb-4">
+                  SIGN UP
+                </a>
+  
+                <!-- Register buttons -->
+                
+                
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
-  </div>
-      
+    </div>
+  </section>
+  <script src="https://kit.fontawesome.com/0f5d72f27a.js" crossorigin="anonymous"></script>
+  <!-- Section: Design Block -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

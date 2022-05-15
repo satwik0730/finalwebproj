@@ -54,7 +54,25 @@ body {
   align-items: center;
   display: flex;
 }
-
+.ourclient
+{
+  background: linear-gradient(rgba(0, 0, 0, 0.705) , rgba(0, 0, 0, 0.705)), url("img/hester-qiang-bSrqpoOz7Ec-unsplash.jpg");
+  background-size: cover;
+  height: 56vh;
+  align-items: center;
+  text-align: center;
+  
+  
+}
+.card-group img
+{
+  background: linear-gradient(rgba(0, 0, 0, 0.61) , rgba(0, 0, 0, 0.61));
+}
+.ourclient img
+{
+  margin: 3.5rem;
+  padding-top: 4.2rem;
+}
 .logoWrapper {
   display: flex;
 }
