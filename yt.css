@@ -23,18 +23,19 @@ html {
 body {
   background-image: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.164),
       rgba(0, 0, 0)
     ),
-    url(images/ima23.jpeg);
-  background-size: 110% 56rem;
+    url("images/wp3117959.jpg");
+  background-size: 100% 56rem;
+   
   background-repeat: no-repeat;
 }
 #f3 {
   background-image: url(images/aj.jpg);
 }
 h5 {
-  font-family: "Cinzel Decorative";
+  font-family: "Gloss_And_Bloom" , sans-serif;
   font-size: medium;
   font-weight: bolder;
 }
@@ -291,3 +292,419 @@ span a .btn:hover {
   display: block;
 }
 /*Image title styles*/
+/* .navigationWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-transform: capitalize;
+  overflow: hidden;
+  width: 100%;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+}
+.container {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+
+
+.logo {
+  padding-left: 2px;
+  color: #e2b13c;
+}
+
+.navigation {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  opacity: 1;
+  list-style-type: none;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  transition: all 0.8s ease-in-out;
+}
+
+.parent {
+  padding: 0 5px;
+  cursor: pointer;
+}
+.link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  color: rgb(65, 65, 65);
+  font-size: larger;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  padding-top: 1rem;
+}
+.link:hover {
+  color: #e2b13c;
+  text-decoration: none;
+  outline: none;
+  transform: scale(1.1);
+}
+
+.fa-minus {
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+  left: -16px;
+  top: 3px;
+}
+
+.fa-plus {
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+
+.fas {
+  color: #e2b13c;
+  margin: -2px 4px 0;
+  font-size: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.subnavigation {
+  display: none;
+  list-style-type: none;
+  width: 500px;
+  position: absolute;
+  top: 40%;
+}
+.main-box {
+  background: rgb(0, 0, 0);
+  width: 100%;
+  height: 3.5rem;
+}
+.box {
+  transition: 1s;
+  display: flex;
+  width: 100%;
+  height: 70vh;
+  animation-name: animate;
+  animation-direction: alternate-reverse;
+  animation-duration: 30s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: ease;
+} */
+
+
+
+
+
+
+.signature {
+  font-style: italic;
+  font-size: 12px;
+  color: #000000;
+  padding-top: 15px;
+  transition: all 0.3s ease-in-out;
+}
+.signature:hover {
+  color: white;
+}
+.content2 {
+  display: flex;
+}
+
+.navigationWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-transform: capitalize;
+  overflow: hidden;
+  width: 100%;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+}
+.container {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+.ourclient
+{
+  background: linear-gradient(rgba(0, 0, 0, 0.705) , rgba(0, 0, 0, 0.705)), url("img/hester-qiang-bSrqpoOz7Ec-unsplash.jpg");
+  background-size: cover;
+  height: 56vh;
+  align-items: center;
+  text-align: center;
+  
+  
+}
+.card-group img
+{
+  background: linear-gradient(rgba(0, 0, 0, 0.61) , rgba(0, 0, 0, 0.61));
+}
+.ourclient img
+{
+  margin: 3.5rem;
+  padding-top: 4.2rem;
+}
+.logoWrapper {
+  display: flex;
+}
+
+.stylish {
+  font-weight: bolder;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+  font-family: "Gloss_And_Bloom", sans-serif;
+}
+p {
+  font-style: oblique;
+}
+.logo {
+  padding-left: 2px;
+  color: #e2b13c;
+}
+
+.navigation {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  opacity: 1;
+  list-style-type: none;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  transition: all 0.8s ease-in-out;
+}
+
+.parent {
+  padding: 0 5px;
+  cursor: pointer;
+}
+.link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  color: rgb(65, 65, 65);
+  font-size: larger;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  padding-top: 1rem;
+}
+.link:hover {
+  color: #e2b13c;
+  text-decoration: none;
+  outline: none;
+  transform: scale(1.1);
+}
+
+.fa-minus {
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+  left: -16px;
+  top: 3px;
+}
+
+.fa-plus {
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+
+.fas {
+  color: #e2b13c;
+  margin: -2px 4px 0;
+  font-size: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.subnavigation {
+  display: none;
+  list-style-type: none;
+  width: 500px;
+  position: absolute;
+  top: 40%;
+}
+.main-box {
+  background: rgb(0, 0, 0);
+  width: 100%;
+  height: 3.5rem;
+}
+.box {
+  transition: 1s;
+  display: flex;
+  width: 100%;
+  height: 70vh;
+  animation-name: animate;
+  animation-direction: alternate-reverse;
+  animation-duration: 30s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: ease;
+}
+
+.responsive {
+  width: 40%;
+  height: auto;
+}
+.responsive1 {
+  width: 15%;
+  height: auto;
+}
+.responsive::before {
+  width: 47%;
+  height: auto;
+  border: 2px 2px black;
+}
+#lg {
+  width: 50%;
+  height: auto;
+}
+
+#mainbox {
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 0.6s;
+}
+.sidemenu {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 0px;
+  background-color: rgba(2, 2, 2, 0.89);
+  z-index: 1;
+  padding-top: 100px;
+  overflow-x: hidden;
+  transition: all 0.5s;
+}
+.sidemenu a {
+  /* padding: 8px 8px 8px 64px; */
+  text-decoration: none;
+  padding-left: 1.5rem;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  letter-spacing: 2px;
+  display: block;
+  font-family: "Oswald", sans-serif;
+  padding-top: 2rem;
+}
+.sidemenu a:hover {
+  color: #e2b13c;
+}
+.sidemenu .closebtn {
+  position: absolute;
+  top: 0px;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 32px;
+}
+
+.content1 {
+  display: flex;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: space-around;
+  background: rgb(255, 255, 255);
+  color: #000;
+  text-align: center;
+}
+
+.content3{
+  display: flex;
+  background-color: white;
+}
+
+
+@media (max-width: 992px) {
+  footer .cizgi {
+    border-right: none;
+  }
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+#zee {
+  width: 80%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  position: absolute;
+  top: 65%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+li {
+  display: inline-block;
+  margin: 10px;
+}
+.download {
+  width: 175px;
+  height: 65px;
+  background: rgb(0, 0, 0);
+  float: left;
+  border-radius: 8px;
+  position: relative;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #fff;
+}
+
+.download .fa {
+  color: #fff;
+  position: absolute;
+  top: 45%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+}
+.p1,
+.p2 {
+  position: absolute;
+  left: 70px;
+}
+.p1 {
+  top: 10px;
+  font-size: 12px;
+}
+.p2 {
+  top: 25px;
+  font-size: 16px;
+}
+.download:hover {
+  filter: invert(100%);
+}
+
+h3 {
+  color: black;
+}
+.box .content a {
+  background: #000;
+  width: 12rem;
+  height: 3rem;
+}
