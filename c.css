@@ -3,7 +3,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Gloss_And_Bloom", sans-serif;
+}
+body
+{
+  background: url(img/photo-1501785888041-af3ef285b470.avif);
 }
 header {
   position: absolute;

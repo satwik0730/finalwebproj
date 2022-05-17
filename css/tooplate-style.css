@@ -57,7 +57,7 @@ p {
 	width: auto;
 	padding: 0px 18px;
 	height: 36px;
-	background:orange;
+	background:darkred;
 	font-size: 13px;
 	color: #121212;
 	font-weight: 600;
@@ -162,7 +162,7 @@ p {
 
 
 .banner {
-	background-image: url("../images/filip-mroz-023T4jyCRqA-unsplash.jpg");
+	background: url("../img/photo-1500835556837-99ac94a94552.avif");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -172,7 +172,7 @@ p {
 
 .banner .left-side{
 	text-align: left;
-	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.5);
 	height: 100%;
 	margin-left: -100vh;
 	padding-left: 100vh;
